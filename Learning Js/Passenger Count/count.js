@@ -4,13 +4,13 @@ let saveEl = document.getElementById("save-el")
 
 function increment() {
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
 }
 
 function save() {
     let prev_ent = count + " - "
-    saveEl.innerText += prev_ent
-    countEl.innerText = 0
+    saveEl.textContent += prev_ent
+    countEl.textContent = 0
     count = 0
 }
 
