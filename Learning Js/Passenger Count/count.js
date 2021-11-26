@@ -8,7 +8,8 @@ function increment() {
 }
 
 function save() {
-    saveEl.innerText = "Previous Entries: " + count + " - "
+    let prev_ent = count + " - "
+    saveEl.innerText += prev_ent
     countEl.innerText = 0
     count = 0
 }
